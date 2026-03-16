@@ -23,25 +23,32 @@ return (
       <TextInput
         placeholder ="Digite seu nome"
         style={styles.input}
-        maxLength ={10}
+        maxLength ={30}
         autoCapatalize = "words"
         onChangeText={setNome}
       />
       <TextInput
-        placeholder
-
+        placeholder = "Digite seu curso"
+        style = {styles.input}
+        maxLength = {15}
+        autoCapatalize = "words"
+        onChangeText = {setCurso}
+      />
       
-      
+      <TextInput
+        placeholder = "Digite sua disciplina"
+        style = {styles.input}
+        maxLength = {15}
+        autoCapatalize = "words"
+        onChangeText= {setDisciplina}
       />
 
       <TextInput
-        placeholder
-      
-      />
-
-      <TextInput
-        placeholder
-      
+        placeholder = "Descricao"
+        style ={styles.input}
+        maxLength ={100}
+        autoCapatalize = "words"
+        onChangeText = {setDescricao}
       />
         
 
@@ -53,7 +60,7 @@ return (
     />
     
   
-    
+    {<mostrarDados&&<RenderizarDados nome ={nome} curso ={curso} disciplina = {disciplina} descricao = {descricao} />}
 
     
       
