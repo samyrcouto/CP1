@@ -2,7 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View , Button} from 'react-native';
 import { useState } from 'react';
 import { SafeAreaView } from 'react-native/types_generated/index';
-
+import RenderizarDados from './components/RenderizarDados';
 
 export default function App() {
   const [nome, setNome] = useState("")
@@ -29,17 +29,18 @@ return (
       />
       <TextInput
         placeholder
+
       
       
       />
 
       <TextInput
-      
+        placeholder
       
       />
 
       <TextInput
-      
+        placeholder
       
       />
         
@@ -48,6 +49,7 @@ return (
    
     <Button
       title="Envio dos dados"
+      onPress={()=>setMostrarDados(!mostrarDados)}
     />
     
   
