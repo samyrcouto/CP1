@@ -1,0 +1,41 @@
+1-Estrutura da Interface
+SafeAreaView
+view
+text
+2- Formulário de Cadastro
+<mat-nav-list dense>
+nome 
+curso 
+disciplina 
+descricao
+3- Botao de Envio
+Button 
+exibir os dados preenchidos na propia tela 
+4- Uso do Hook useState
+cada campo do formulario deversa ser controlado utilizando useState
+nome 
+curso
+disciplina
+descricao
+os valores digitados no formulario devem ser armazenados nessas variaveis
+5- exibicao dos dados
+o aplicativo devera mostrar os dados preenchidos pelo usuario na tela
+nome
+curso
+disciplina
+descricao
+utilizando Text e view
+6-Uso do Hook useEffect
+o useEffect deve ser utilizado para executar alguma açcao quando o aplicativo for carregado
+exibir uma mensagem no console 
+inicializar algum estado
+registrar que o aplicativo foi iniciado
+
+7- Estilizacao Básica
+StyleSheet
+tamanho de text 
+margens ou espacamentos
+organizacao dos campos do formulario 
+estilizacao do botao
+
+
