@@ -1,16 +1,13 @@
-import {Text} from "react-native";
+import { Text } from "react-native";
 
-export default ({nome, curso, disciplina,descricao})=>{
-    return(
-        <>
-            <Text>Nome: {nome}</Text>
-            <Text>Curso: {curso}</Text>
-            <Text>Disciplina: {disciplina}</Text>
-            <Text>Descricao: {descricao}</Text>        
-        
-        </>
-    )
-
-    
+export default function RenderizarDados({ nome, curso, disciplina, descricao }) {
+  return (
+    <>
+      <Text>Nome: {nome}</Text>
+      <Text>Curso: {curso}</Text>
+      <Text>Disciplina: {disciplina}</Text>
+      <Text>Descrição: {descricao}</Text>
+    </>
+  );
 }
 
